@@ -6,11 +6,11 @@ let count = 0
 
 
 function theBeatlesPlay(musician, instrument) {
-  let array = []
+  let array = [];
   for(let i=0; i < musician.length; i++) {
      array.push(`${musician[i]} plays ${instrument[i]}`)
   }
-  return array
+  return array;
 }
 
 
@@ -24,6 +24,7 @@ function johnLennonFacts(array) {
 }
 
 function iLoveTheBeatles(number) {
-  let array = []
+  let array = [];
+  let n = 0;
   
 }
